@@ -33,7 +33,7 @@ const ResourceCard = ({ title, id, image, downloadNumber, downloadLink }) => {
           className="flex-center text-gradient_purple-blue body-semibold gap-1.5"
         >
           Download Now
-          <Image src="/arrow-blue.svg" width={13} height={10} />
+          <Image src="/arrow-blue.svg" width={13} height={10} alt="arrow" />
         </Link>
       </CardContent>
     </Card>
